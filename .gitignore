@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+.vscode/
+*.log
+package-lock.json
+.env
+.DS_Store
+
+# Firebase key
+/backend/serviceAccountKey.json
+
+# Build files
+/build/
+dist/
+
+# System files
+Thumbs.db
+.idea/
+*.iml

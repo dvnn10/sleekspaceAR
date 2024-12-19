@@ -1,0 +1,154 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cart-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cart-paper {
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.cart-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.wishlist-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.wishlist-item {
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.wishlist-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.wishlist-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.wishlist-category {
+  font-size: 16px;
+  color: #555;
+}
+
+.remove-btn {
+  background-color: #a10d0d;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #ff4646;
+}
+
+.total-price-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.total-price-section h5 {
+  font-size: 2rem; /* Larger Total Price Font */
+  font-weight: bold;
+  color: #333;
+}
+
+/* Address Input Section */
+.order-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.address-input {
+  width: 70%; /* Adjusted Width */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  resize: none;
+  min-height: 4rem; /* Increased Height */
+  text-align: center; /* Centered Text */
+}
+
+.submit-address-button {
+  font-size: 1.2rem; /* Larger Font */
+  padding: 12px 24px; /* Bigger Button */
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-address-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Subtle Hover Effect */
+}
+
+/* Pay Now Button */
+.pay-now-button {
+  font-size: 1.3rem; /* Larger Font */
+  padding: 12px 24px; /* Increased Size */
+  margin-top: 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pay-now-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* Shipping Address Text */
+.shipping-address {
+  font-size: 1.5rem; /* Larger Font */
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
