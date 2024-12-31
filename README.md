@@ -20,4 +20,4 @@ engagement by bridging the gap between online shopping and real-world
 visualization.
 The project is currently in an advanced stage, featuring functional AR visualization,
 product exploration, and secure e-commerce integration, setting a new benchmark for
-immersive online shopping experiences
+immersive online shopping experiences.
